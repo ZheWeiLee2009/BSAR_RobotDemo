@@ -10,7 +10,9 @@ Most of these codes will be directly for FTC.
 
 To use this code, you'll need:
 > An operating system that supports Android Studio [Android Studio](https://developer.android.com/studio/install "Download for Android Studio")
+> 
 > Rev Hardware Client installed. [Rev Hardware Client](https://docs.revrobotics.com/rev-hardware-client/gs/install "Download for Android Studio")
+> 
 > An operable robot that is updated to the most current version
 
 1. git clone this repository to your local computer 
