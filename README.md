@@ -20,7 +20,7 @@ If you are an Android Studio programmer, there are several ways to download this
 
 * If you are a git user, you can clone the most current version of the repository:
 
-`git clone https://github.com/FIRST-Tech-Challenge/FtcRobotController.git`
+`git clone https://github.com/ZheWeiLee2009/BSAR_RobotDemo.git`
 
 * Or, if you prefer, you can use the "Download Zip" button available through the main repository page.  Downloading the project as a .ZIP file will keep the size of the download manageable.
 

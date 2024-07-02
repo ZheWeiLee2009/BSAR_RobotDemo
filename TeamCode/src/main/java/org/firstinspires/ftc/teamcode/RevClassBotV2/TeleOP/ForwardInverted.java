@@ -32,14 +32,12 @@ package org.firstinspires.ftc.teamcode.RevClassBotV2.TeleOP;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.DcMotor;
-import com.qualcomm.robotcore.hardware.DcMotorEx;
-import com.qualcomm.robotcore.hardware.DcMotorSimple;
 import com.qualcomm.robotcore.util.ElapsedTime;
 import com.qualcomm.robotcore.util.Range;
 
 
-@TeleOp(name="ForwardFacing", group = "RevClassBotV2")
-public class ForwardFacing extends LinearOpMode {
+@TeleOp(name="ForwardInverted", group = "RevClassBotV2")
+public class ForwardInverted extends LinearOpMode {
 
     private ElapsedTime runtime = new ElapsedTime();
     private DcMotor leftDrive;
@@ -67,7 +65,7 @@ public class ForwardFacing extends LinearOpMode {
             double maxPower = 0.5; //Safety Mechanism for little children just in case.
 
             double drive = -gamepad1.left_stick_y;
-            double turn  = +gamepad1.right_stick_x;
+            double turn  = -gamepad1.right_stick_x;
 
             leftPower    = Range.clip(drive + turn, -maxPower, maxPower) ;
             rightPower   = Range.clip(drive - turn, -maxPower, maxPower) ;
